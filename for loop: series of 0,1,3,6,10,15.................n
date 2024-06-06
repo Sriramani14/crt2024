@@ -1,0 +1,13 @@
+for loop
+0,1,3,6,10,..................n
+
+#include <stdio.h>
+int main() {
+  int n,i,c=0;
+  scanf("%d",&n);
+  for(i=1;i<n;i++){
+   printf("%d  ",c);
+   c=c+i;
+     }
+  }
+ 
