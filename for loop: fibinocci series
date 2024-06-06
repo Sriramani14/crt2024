@@ -1,0 +1,17 @@
+for loop
+fibinocii series
+
+
+#include <stdio.h>
+int main() {
+  int n,i,r1=0,r2=1,r3;
+  scanf("%d",&n);
+  printf("%d %d",r1,r2);
+  for(i=1;i<=n-2;i++){
+      r3=r1+r2;
+   printf(" %d  ",r3);
+   r1=r2;
+   r2=r3;
+     }
+  }
+ 
