@@ -1,0 +1,18 @@
+funtion with no argues,no return
+
+#include <stdio.h>
+void area(){
+     int a,b;
+    scanf("%d%d",&a,&b);
+    int r=a*b;
+       printf("%d",r);
+}
+int main() {
+    area();
+    return 0;
+}
+
+output:
+6
+5
+30
