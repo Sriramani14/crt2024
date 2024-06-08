@@ -1,0 +1,20 @@
+local variable
+
+#include "stdio.h"
+void show(){
+    int a=10;
+    printf("show a=%d\n",a);
+}
+void display(){
+    int a=20;
+    printf("display a=%d",a);
+}
+int main() {
+  show();
+  display();
+}
+
+ooutput:
+
+show a=10
+display a=20
