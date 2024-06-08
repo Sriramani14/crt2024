@@ -1,0 +1,15 @@
+function with return but no arg
+
+#include <stdio.h>
+int area(){
+    int a,b,r;
+    scanf("%d%d",&a,&b);
+    r=a*b;
+    return r;
+}
+int main() {
+   int k=area();
+   printf("%d",k);
+    return 0;
+}
+
