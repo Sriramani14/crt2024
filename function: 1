@@ -1,0 +1,25 @@
+function program
+
+#include <stdio.h>
+void show(){
+    printf("Vignan\n");
+    printf("hyd\n");
+}
+void line(){
+    printf("--------------\n");
+}
+int main() {
+   show();
+   line();
+   show();
+    return 0;
+}
+
+output:
+
+
+Vignan
+hyd
+--------------
+Vignan
+hyd
