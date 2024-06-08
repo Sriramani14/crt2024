@@ -1,0 +1,19 @@
+function with args,return
+
+#include "stdio.h"
+int reverse(int n){
+    int d,r=0;
+    while(n>0){
+        d=n%10;
+        n=n/10;
+        r=r*10+d;
+    }
+    return r;
+}
+int main() {
+   int n;
+   scanf("%d",&n);
+ int k=reverse(n);
+  printf("%d",k);
+    return 0;
+}
