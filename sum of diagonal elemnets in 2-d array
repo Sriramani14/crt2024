@@ -1,0 +1,32 @@
+sum of diagonal elemnts in 2-d array
+
+#include <stdio.h>
+int main() {
+    int m,n,s=0;
+    scanf("%d",&n);
+    int a[n][n];
+    int i,j;
+   
+    for(i=0;i<n;i++){
+        for(j=0;j<n;j++){
+            scanf("%d",&a[i][j]);
+        }
+    }
+   
+    for(i=0;i<n;i++){
+        for(j=0;j<n;j++){
+            printf("%d ",a[i][j]);
+        }
+        printf("\n");
+    }
+     for(i=0;i<n;i++){
+        for(j=0;j<n;j++){
+            if(i==j){
+               s=s+a[i][j];
+            }
+        }
+       
+    }
+    printf("sum: %d",s);
+    return 0;
+}
