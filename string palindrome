@@ -1,0 +1,24 @@
+string palidrome or not
+
+
+#include <stdio.h>
+#include<string.h>
+int main() {
+    char s[10],r[10];
+    int n,i,j=0;
+    scanf("%s",s);
+    n=strlen(s);
+    for(i=n-1;i>=0;i--){
+        r[j]=s[i];
+        j++;
+    }
+   r[j]='\0';
+   i=strcmp(s,r);
+   if(i==0){
+       printf("Palindrome");
+   }
+   else{
+       printf("not a palindrome");
+   }
+    return 0;
+}
