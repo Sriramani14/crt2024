@@ -1,0 +1,18 @@
+without strcat()
+#include <stdio.h>
+#include<string.h>
+int main() {
+    char s[10],r[10],a[40];
+    int i,j;
+    scanf("%s",s);
+     scanf("%s",r);
+     for(i=0;s[i]!='\0';i++){
+         a[i]=s[i];
+     }
+     for(j=0;r[j]!='\0';j++){
+         a[i+j]=r[j];
+     }
+    printf("%s",a);
+ 
+    return 0;
+}
