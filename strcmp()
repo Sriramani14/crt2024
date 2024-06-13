@@ -1,0 +1,16 @@
+strcmp()
+#include <stdio.h>
+#include<string.h>
+int main() {
+    char s[10],r[10];
+    scanf("%s",s);
+     scanf("%s",r);
+     int i=strcmp(s,r);
+     if(i==0){
+         printf("strings are equal");
+     }else{
+         printf("strings are not equal");
+     }
+   
+    return 0;
+}
