@@ -1,0 +1,23 @@
+
+
+input : r3a4
+output : rrraaaa
+
+
+
+#include <stdio.h>
+#include<string.h>
+int main() {
+    char s[60];
+    int i,r,j,n;
+    scanf("%s",s);
+    n=strlen(s);
+  for(i=1;i<n;i=i+2){
+      r=(int)s[i]-48;
+      for(j=0;j<r;j++){
+          printf("%c",s[i-1]);
+      }
+}
+
+    return 0;
+}
