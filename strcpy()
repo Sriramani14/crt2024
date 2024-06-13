@@ -1,0 +1,12 @@
+strcpy() function
+
+#include <stdio.h>
+#include<string.h>
+int main() {
+    char s[10],r[70];
+    scanf("%s",s);
+    strcpy(r,s);
+    printf("%s",r);
+ 
+    return 0;
+}
